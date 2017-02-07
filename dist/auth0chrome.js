@@ -654,6 +654,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var secret = (0, _base64URLEncode2.default)(_crypto2.default.randomBytes(32));
 	  var hashed = (0, _base64URLEncode2.default)(sha256(secret));
 	  return { secret: secret, hashed: hashed };
+	  console.log("GENERATING SECRET", secret, hashed);
 	}
 
 /***/ },

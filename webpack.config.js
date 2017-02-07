@@ -22,8 +22,8 @@ const config = {
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       include: /\.min\.js$/,
-      minimize: true,
-      compress: true,
+      minimize: false,
+      compress: false,
     })
   ],
 
